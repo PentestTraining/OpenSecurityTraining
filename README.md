@@ -13,15 +13,15 @@ I have tried to structure the training in a slightly different method so that co
 As an example, DNS for each DNS topic I would like to present common documentation but then have contextual information of how that topic will apply to a role.
 
 
-Blue Hat Security
+### Blue Hat Security
 - DNS is one way that an attacker will profile your infrastrcture and you should be aware of the information that is visible online. e.g charles-test.domain.com could give away that you have a user called charles and if ssh is open that might be a user to try when bruteforcing. Furthermore jira.domain.com can let an attacker know you are running the jira service. Based on this they can tailor phishing emails and find relevant CVEs for the platform
 
 
-Attacker Perspective
+### Attacker Perspective
 -  For an attacker dns host names can give a lot of information on a target infrastrcure from software used to versions and potential usernames. Common tools for enumeration are X,Y,Z. 
 
 
-Common Info
+### Common Info
 
 DNS is a name to ip address technology and is composed of several category of record. 
 
